@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\anika\Downloads\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\base\Base.java
 C:\Users\anika\Downloads\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\utilities\excelReaderUtility.java
 C:\Users\anika\Downloads\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\utilities\ExtentListener.java
@@ -8,3 +9,13 @@ C:\Users\anika\Downloads\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcec
 C:\Users\anika\Downloads\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\payload\AcquirerPayload.java
 C:\Users\anika\Downloads\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\payload\MerchantPayload.java
 C:\Users\anika\Downloads\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\clients\MerchatClient.java
+=======
+C:\Projets\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\base\Base.java
+C:\Projets\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\utilities\excelReaderUtility.java
+C:\Projets\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\payload\MerchantPayload.java
+C:\Projets\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\utilities\ExtentListener.java
+C:\Projets\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\clients\MerchatClient.java
+C:\Projets\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\endpoints\AcquirerEndpoints.java
+C:\Projets\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\endpoints\MerchantEndpoints.java
+C:\Projets\RealApisProjcect-20260408T184308Z-3-001\RealApisProjcect\src\main\java\api\utilities\ExtentManager.java
+>>>>>>> f5e63b07c89f6da641a5c8c500f605d3d73dde05
