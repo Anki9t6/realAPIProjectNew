@@ -29,7 +29,7 @@ public class AcquirerValidation extends Base{
 	
 		response.then().log().all();
 		Assert.assertEquals(response.getStatusCode(), 200);
-	}*/
+	}
 	@Test(priority=2)
 	public void testGetAcquirerDetail() {
 		  Base.getTest().info("Calling GetAcquirerDetail API...");
@@ -39,7 +39,7 @@ public class AcquirerValidation extends Base{
 		 Base.getTest().info("Validation done");
 		//Assert.assertEquals(response.jsonPath().getString("email"), "john@email.com");
 	}
-	/*@Test(priority=3)
+	@Test(priority=3)
 	public void testUpdateAcquirerDetail() throws JsonProcessingException {
 		Map<String, Object> payload = new HashMap<>();
 
