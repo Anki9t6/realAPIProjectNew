@@ -1,64 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-09T19:25:28 IST" name="Suite" finished-at="2026-04-09T19:25:33 IST" duration-ms="4947">
+  <suite started-at="2026-04-10T14:16:26 IST" name="Suite" finished-at="2026-04-10T14:16:31 IST" duration-ms="5299">
     <groups>
     </groups>
-    <test started-at="2026-04-09T19:25:28 IST" name="Test" finished-at="2026-04-09T19:25:33 IST" duration-ms="4947">
+    <test started-at="2026-04-10T14:16:26 IST" name="Test" finished-at="2026-04-10T14:16:31 IST" duration-ms="5299">
       <class name="api.testCases.MerchantValidation">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:api.testCases.MerchantValidation@7e6f74c]" started-at="2026-04-09T19:25:28 IST" name="setupReport" finished-at="2026-04-09T19:25:28 IST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:api.testCases.MerchantValidation@22ff4249]" started-at="2026-04-10T14:16:25 IST" name="setupReport" finished-at="2026-04-10T14:16:26 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="generateTestData()[pri:0, instance:api.testCases.MerchantValidation@7e6f74c]" started-at="2026-04-09T19:25:28 IST" name="generateTestData" finished-at="2026-04-09T19:25:28 IST" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="generateTestData()[pri:0, instance:api.testCases.MerchantValidation@22ff4249]" started-at="2026-04-10T14:16:26 IST" name="generateTestData" finished-at="2026-04-10T14:16:26 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestData -->
-        <test-method signature="testGetMerchantDetail()[pri:2, instance:api.testCases.MerchantValidation@7e6f74c]" started-at="2026-04-09T19:25:28 IST" name="testGetMerchantDetail" finished-at="2026-04-09T19:25:31 IST" duration-ms="2471" status="PASS">
+        <test-method signature="testGetMerchantDetail()[pri:2, instance:api.testCases.MerchantValidation@22ff4249]" started-at="2026-04-10T14:16:26 IST" name="testGetMerchantDetail" finished-at="2026-04-10T14:16:28 IST" duration-ms="2647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetMerchantDetail -->
-        <test-method signature="testDeleteMerchant()[pri:4, instance:api.testCases.MerchantValidation@7e6f74c]" started-at="2026-04-09T19:25:31 IST" name="testDeleteMerchant" finished-at="2026-04-09T19:25:32 IST" duration-ms="1153" status="PASS">
+        <test-method signature="testDeleteMerchant()[pri:4, instance:api.testCases.MerchantValidation@22ff4249]" started-at="2026-04-10T14:16:28 IST" name="testDeleteMerchant" finished-at="2026-04-10T14:16:30 IST" duration-ms="1217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteMerchant -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:api.testCases.MerchantValidation@7e6f74c]" started-at="2026-04-09T19:25:33 IST" name="tearDownReport" finished-at="2026-04-09T19:25:33 IST" duration-ms="232" status="PASS">
-=======
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2026-04-08T13:16:36 IST" name="Suite" finished-at="2026-04-08T13:16:43 IST" duration-ms="7536">
-    <groups>
-    </groups>
-    <test started-at="2026-04-08T13:16:36 IST" name="Test" finished-at="2026-04-08T13:16:43 IST" duration-ms="7536">
-      <class name="api.testCases.MerchantValidation">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:api.testCases.MerchantValidation@1fa121e2]" started-at="2026-04-08T13:16:35 IST" name="setupReport" finished-at="2026-04-08T13:16:36 IST" duration-ms="937" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="generateTestData()[pri:0, instance:api.testCases.MerchantValidation@1fa121e2]" started-at="2026-04-08T13:16:36 IST" name="generateTestData" finished-at="2026-04-08T13:16:37 IST" duration-ms="912" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateTestData -->
-        <test-method signature="testGetMerchantDetail()[pri:2, instance:api.testCases.MerchantValidation@1fa121e2]" started-at="2026-04-08T13:16:37 IST" name="testGetMerchantDetail" finished-at="2026-04-08T13:16:42 IST" duration-ms="5043" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetMerchantDetail -->
-        <test-method signature="testDeleteMerchant()[pri:4, instance:api.testCases.MerchantValidation@1fa121e2]" started-at="2026-04-08T13:16:42 IST" name="testDeleteMerchant" finished-at="2026-04-08T13:16:43 IST" duration-ms="1507" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDeleteMerchant -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:api.testCases.MerchantValidation@1fa121e2]" started-at="2026-04-08T13:16:43 IST" name="tearDownReport" finished-at="2026-04-08T13:16:44 IST" duration-ms="485" status="PASS">
->>>>>>> f5e63b07c89f6da641a5c8c500f605d3d73dde05
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:api.testCases.MerchantValidation@22ff4249]" started-at="2026-04-10T14:16:31 IST" name="tearDownReport" finished-at="2026-04-10T14:16:31 IST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownReport -->
       </class> <!-- api.testCases.MerchantValidation -->
-<<<<<<< HEAD
       <class name="api.testCases.AcquirerValidation">
-        <test-method signature="testGetAcquirerDetail()[pri:2, instance:api.testCases.AcquirerValidation@3fc2959f]" started-at="2026-04-09T19:25:32 IST" name="testGetAcquirerDetail" finished-at="2026-04-09T19:25:32 IST" duration-ms="17" status="FAIL">
+        <test-method signature="testGetAcquirerDetail()[pri:2, instance:api.testCases.AcquirerValidation@4c12331b]" started-at="2026-04-10T14:16:30 IST" name="testGetAcquirerDetail" finished-at="2026-04-10T14:16:30 IST" duration-ms="19" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Path parameters were not correctly defined. Redundant path parameters are: id=10. Undefined path parameters are: petId.]]>
@@ -68,8 +39,8 @@
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
 at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
 at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:60)
 at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
@@ -80,7 +51,7 @@ at io.restassured.internal.RequestSpecificationImpl.assertCorrectNumberOfPathPar
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
 at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
 at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
@@ -96,7 +67,7 @@ at io.restassured.internal.RequestSpecificationImpl.this$2$sendRequest(RequestSp
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
 at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
 at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
@@ -128,7 +99,7 @@ at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSen
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
 at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
 at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
@@ -144,7 +115,7 @@ at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSen
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)
 at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)
 at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1334)
@@ -162,7 +133,7 @@ at api.testCases.AcquirerValidation.testGetAcquirerDetail(AcquirerValidation.jav
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -193,13 +164,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAcquirerDetail -->
-        <test-method signature="testDeleteMerchant()[pri:4, instance:api.testCases.AcquirerValidation@3fc2959f]" started-at="2026-04-09T19:25:32 IST" name="testDeleteMerchant" finished-at="2026-04-09T19:25:33 IST" duration-ms="1121" status="PASS">
+        <test-method signature="testDeleteMerchant()[pri:4, instance:api.testCases.AcquirerValidation@4c12331b]" started-at="2026-04-10T14:16:30 IST" name="testDeleteMerchant" finished-at="2026-04-10T14:16:31 IST" duration-ms="1231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteMerchant -->
       </class> <!-- api.testCases.AcquirerValidation -->
-=======
->>>>>>> f5e63b07c89f6da641a5c8c500f605d3d73dde05
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

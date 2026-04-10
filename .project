@@ -20,14 +20,4 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
-<<<<<<< HEAD
-=======
-	<linkedResources>
-		<link>
-			<name>src/main/resources/APiTestCases (1).xlsx</name>
-			<type>1</type>
-			<location>C:/Users/ankit.sh/Downloads/APiTestCases (1).xlsx</location>
-		</link>
-	</linkedResources>
->>>>>>> f5e63b07c89f6da641a5c8c500f605d3d73dde05
 </projectDescription>

@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 api\payload\AcquirerPayload.class
-api\utilities\ExtentListener.class
 clients\AcquirerClient.class
-=======
-api\utilities\ExtentListener.class
->>>>>>> f5e63b07c89f6da641a5c8c500f605d3d73dde05
-api\utilities\excelReaderUtility.class
 api\utilities\ExtentManager.class
 clients\MerchatClient.class
 api\endpoints\MerchantEndpoints.class
+base\Base.class
+api\utilities\ExtentListener.class
+api\utilities\excelReaderUtility.class
 api\payload\MerchantPayload.class
 api\endpoints\AcquirerEndpoints.class
-base\Base.class
