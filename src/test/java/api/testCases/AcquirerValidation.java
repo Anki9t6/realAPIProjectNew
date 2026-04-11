@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 
+import api.utilities.AssertUtils;
 import base.Base;
 import clients.AcquirerClient;
 import clients.MerchatClient;
@@ -68,8 +69,10 @@ public class AcquirerValidation extends Base{
 		 Base.getTest().info("Calling DeleteAcquirerDetail API...");
 		Response response=MerchatClient.getMerchant("theUser");
 		response.then().log().all();
-		Assert.assertEquals(response.getStatusCode(), 200);
-		 Base.getTest().info("Validation done");
+		AssertUtils.verifyStatusCode(response, 200);
+		   Base.getTest().info("Status Code: " +response.getStatusCode());
+           Base.getTest().info("Response Body: " + response.asPrettyString());
+           Base.getTest().info("Response Time: " +response.getTime());
 	
 	}
 	

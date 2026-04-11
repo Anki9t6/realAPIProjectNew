@@ -9,6 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
 
 import api.payload.MerchantPayload;
+import api.utilities.AssertUtils;
 import base.Base;
 import clients.MerchatClient;
 import io.restassured.response.Response;
@@ -46,9 +47,12 @@ public class MerchantValidation extends Base{
 		  Base.getTest().info("Calling GetMerchantDetail API...");
 		Response response=MerchatClient.getMerchant("theUser");
 		response.then().log().all();
-		Assert.assertEquals(response.getStatusCode(), 200);
-		 Base.getTest().info("Validation done");
-		//Assert.assertEquals(response.jsonPath().getString("email"), "john@email.com");
+		AssertUtils.verifyStatusCode(response, 200);
+		
+		  Base.getTest().info("Status Code: " +response.getStatusCode());
+          Base.getTest().info("Response Body: " + response.asPrettyString());
+          Base.getTest().info("Response Time: " +response.getTime());
+	
 	}
 	/*@Test(priority=3)
 	public void testUpdateMerchantDetail() throws JsonProcessingException {
@@ -63,8 +67,10 @@ public class MerchantValidation extends Base{
 		 Base.getTest().info("Calling DeleteMerchantDetail API...");
 		Response response=MerchatClient.getMerchant("theUser");
 		response.then().log().all();
-		Assert.assertEquals(response.getStatusCode(), 200);
-		 Base.getTest().info("Validation done");
+		AssertUtils.verifyStatusCode(response, 200);
+		  Base.getTest().info("Status Code: " +response.getStatusCode());
+          Base.getTest().info("Response Body: " + response.asPrettyString());
+          Base.getTest().info("Response Time: " +response.getTime());
 	
 	}
 	}
