@@ -1,6 +1,9 @@
 package api.utilities;
 
 import static org.testng.Assert.*;
+
+import java.util.List;
+
 import io.restassured.response.Response;
 
 public class AssertUtils {
@@ -22,6 +25,17 @@ public static void verifyHeader(Response response, String headerName, String exp
             "Header mismatch: " + headerName);
 }
 
+// 🔹 Field Not Null
+public static void verifyNotNull(Response res, String key) {
+    assertNotNull(res.jsonPath().get(key),
+            "Field is null: " + key);
+}
+
+// 🔹 Field is Null
+public static void verifyNull(Response res, String key) {
+    assertNull(res.jsonPath().get(key),
+            "Field is not null: " + key);
+}
 // 🔹 Header Contains
 public static void verifyHeaderContains(Response response, String headerName, String expectedValue) {
     assertTrue(response.getHeader(headerName).contains(expectedValue),
@@ -52,5 +66,16 @@ public static void verifyResponseContains(Response response, String expectedText
     assertTrue(response.asString().contains(expectedText),
             "Response does not contain expected text");
 }
+// 🔹 JSON Key Exists
+public static void verifyJsonKeyExists(Response res, String key) {
+    assertNotNull(res.jsonPath().get(key),
+            "Key not present in response: " + key);
+}
 
+// 🔹 JSON Array Size
+public static void verifyJsonArraySize(Response res, String key, int expectedSize) {
+    List<Object> list = res.jsonPath().getList(key);
+    assertEquals(list.size(), expectedSize,
+            "Array size mismatch for key: " + key);
+}
 }
